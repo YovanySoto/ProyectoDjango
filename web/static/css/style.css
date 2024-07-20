@@ -1,0 +1,105 @@
+nav {
+    background-color: #1abc9c;
+    padding: 10px;
+    text-align: center;
+    max-width: 100%
+}
+
+nav button {
+    background-color: #9283ec;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    
+}
+
+.footer {
+    font-weight: bold;
+    color: white;
+    background-color: #9283ec;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+header {
+    max-width: 100%
+}
+
+
+
+
+
+.container{
+
+    max-width: 100%;
+    
+}
+
+.header{
+    max-width: 100%;
+}
+
+.header img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.form {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd; 
+    border-radius: 5px;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #9283ec;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block; 
+    margin: auto; 
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    background-color: #9283ec;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block; 
+    margin: auto; 
+}
+

@@ -1,0 +1,26 @@
+{% extends "./base.html" %}
+
+{% block contenido %}
+    {% if user.is_authenticated %}
+        <h1>Bienvenido cliente {{ user.get_username }}</h1>
+
+        <div class="Container">
+            <div class="row">
+                {% for flan in flanes_privados %}
+                    <div class="col-md-6 mb-6">
+                        <div class="card">
+                            <img src="{{ flan.image_url }}" class="card-img-top" alt="{{ flan.name }}">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ flan.name }}</h5>
+                                <p class="card-text">{{ flan.description }}</p>
+                                <p class="card-price">Precio: ${{ flan.price }}</p>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    {% else %}
+        <p>Usted no tiene acceso a esta página. Por favor <a href="{% url 'login' %}">inicie sesión</a>.</p>
+    {% endif %}
+{% endblock %}
